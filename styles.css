@@ -1,0 +1,188 @@
+/* Universal styling */
+
+* {
+    font-family: helvetica;
+    text-align: center;
+    font-weight: normal;
+}
+
+/* Header */
+
+header {
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
+
+h1 {
+    font-size: 48px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 40px 100px;
+    font-weight: lighter;
+}
+
+li {
+    font-size: 18px;
+    display: inline-flex;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-weight: lighter;
+    color: white;
+    align-items: center;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+nav {
+    background-color: lightgray;
+    padding: 20px 100px 20px 100px;
+    margin-top: 0px;
+    border-top: 1px solid black;
+}
+
+/* Section */
+
+.colors, .fonts, .textstyles {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+h3 {
+    text-align: left;
+    text-decoration: underline;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin-top: 0px;
+    display: flex;
+    max-width: 200px;
+}
+
+/* Center text relative to image */
+
+.colors div {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    max-width: 90%;
+}
+
+.colors div {
+    margin-top: 40px;
+}
+
+.colors img, .colors h4 {
+    display: inline-block;
+    padding: 10px 110px 10px 110px;
+}
+
+.fonts div {
+    display: inline-block;
+    padding: 60px 20px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 40px;
+    vertical-align: top;
+}
+
+.fonts h4, .fonts h5 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.noto h4, .noto h5 {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.noto1, .textstyles p {
+    font-weight: 200;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.noto2 {
+    font-weight: 400;
+}
+
+.noto3 {
+    font-weight: 500;
+}
+
+.oxygen h4, .oxygen h5 {
+    font-family: 'Oxygen', sans-serif;
+}
+
+.oxy1 {
+    font-weight: 300;
+}
+
+.oxy2 {
+    font-weight: 400;
+}
+
+.oxy3, .textstyles h1 {
+    font-weight: 700;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.asap h4, .asap h5 {
+    font-family: 'asap', sans-serif;
+}
+
+.asap1, .textstyles h2 {
+    font-weight: 400;
+    font-family: 'Asap', sans-serif;
+}
+
+.asap2 {
+    font-weight: 500;
+}
+
+.asap3 {
+    font-weight: 700;
+}
+
+.textstyles div {
+    padding: 60px 80px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin: 40px 50px 100px;
+}
+
+.textstyles h4, .textstyles h5 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.textstyles p {
+    font-size: 18px;
+}
+
+/* Footer */
+
+footer h4 {
+    display: inline;
+    padding: 10px 40px;
+}
+
+footer {
+    background-color: lightgray;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    padding: 20px 100px;
+}
